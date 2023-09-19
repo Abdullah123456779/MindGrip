@@ -1,0 +1,497 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+/* Apply a background color and text color to the body */
+body {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+/* Style the header with a background color, centered text, and padding */
+header {
+    background-color: #007bff;
+    text-align: right;
+    padding: 10px;
+    color: #fff;
+}
+/* Style the header content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+h3{
+    background-color:white; /* Blue background */
+    text-align: center;
+    padding: 30px;
+    color:black; /* White text */
+     display: block;
+    justify-content: flex-start;
+    margin: 10px -550px; /* Add some vertical margin for spacing */
+}
+h4
+{ 
+/* Style the header 3 */
+    background-color: black; /* Blue background */
+    text-align: center;
+    padding: 30px;
+    color: #fff; /* White text */
+     display: block;
+    justify-content: flex-start;
+    margin: 10px -550px; /* Add some vertical margin for spacing */   
+}
+/* Style the logo image*/
+.logo {
+    max-width: 100px; /* Adjust the logo size as needed */
+    margin-right: 10px; /* Add spacing between the logo and text */
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden; /* Ensure content doesn't overflow outside the circle */
+}
+/* Style the header with a background color, centered text, and padding */
+header {
+    background-color: black; /* Blue background */
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* White text */
+}
+/* the navbar fixed at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Adjust the background color as needed */
+    z-index: 100; /* Ensure it appears above other content */
+}
+
+/* Add some padding to the body to account for the fixed navbar */
+body {
+    padding-top: 40px; /* Adjust the padding as needed to prevent content from being hidden behind the navbar */
+}
+
+/* Add a margin to the main content to push it down below the navbar */
+.main-content {
+    margin-top: 40px; /* Should match the padding-top value for the body */
+}
+/* Style the navigation menu as a horizontal list */
+nav ul {
+    list-style-type: none;
+    padding: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black link color */
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the signup form */
+.signup-form {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 50px;  
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.signup-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+.signup-form .signup-button {
+    display: flex;
+    width: 50%;
+    background-color: black; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px; /* Add spacing between buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center buttons vertically */
+    margin-top: 10px; /* Add spacing above the buttons */
+    margin-left: 80px; /* Adjust margin to align with the sign-in button */
+}
+
+.signup-form .signup-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Style the footer */
+footer {
+    background-color: black; /* Dark gray background */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* White text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Increase the size of the "img3.png" image */
+.large-image {
+    width: 100%; /* Adjust this value to your desired width */
+    max-width: 800px; /* Adjust this value to your desired maximum width */
+    display: block;
+    padding: 15px;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style the separator line as a black line */
+hr {
+    border: none; /* Remove default border */
+    border-top: 10px solid black; /* Add a 2px solid black line as the separator */
+    margin: 20px 0; /* Add some vertical margin for spacing */
+}
+/* Style the "About Us" section */
+h3 {
+    font-size: 24px; /* Adjust this value for heading font size */
+    color: #333; /* Change the color to your preferred text color */
+    margin-top: 20px; /* Add spacing between the heading and the paragraph */
+}
+
+p {
+    font-size: 16px; /* Adjust this value for paragraph font size */
+    color: #666; /* Change the color to your preferred text color */
+    line-height: 1.5; /* Increase line height for readability */
+}
+  
+/* Style the "Our Products" section */
+.sample-section {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.sample-section h2 {
+    font-size: 100px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style each product entry */
+.product {
+    margin-top: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+/* Style the main content container */
+.main-content {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+/* Style the form */
+.signin-form {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 50px;  
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.signin-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.signin-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+.signin-form .signin-button {
+    display: flex;
+    width: 50%;
+    background-color: black; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px; /* Add spacing between buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center buttons vertically */
+    margin-top: 10px; /* Add spacing above the buttons */
+    margin-left: 80px
+}
+
+.signin-form .signin-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Style the footer */
+footer {
+    background-color: black; /* Dark gray background */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* White text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.cart-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.remove-from-cart {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.remove-from-cart:hover {
+    background-color: #ff4444;
+}
+
+/* Style the "Continue Shopping" link */
+.cart-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-link a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.cart-link a:hover {
+    background-color: #222;
+}
+
+
+
+
+
+
+
+
+
+/* Style the contact form container */
+.co {
+    background-color: #fff; /* White background */
+    border-radius: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Style form elements */
+.co .fg {
+    margin-bottom: 20px;
+}
+
+.co label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.co input[type="text"],
+.co input[type="email"],
+.co textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.co textarea {
+    height: 200px; /* Adjust the height as needed */
+}
+
+.co button.submit-button {
+   display: flexbox;
+    background-color: black; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.co button.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the contact information section */
+.cn {
+    margin-top: 5px;
+}
+
+.cn p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #555; /* Dark gray text */
+}
+
+.cn a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cn a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #222; /* Dark gray background */
+    text-align: center;
+    padding: 5px;
+    color: #fff; /* White text */
+}
+
+
+
+
+
+
+
+
+
+

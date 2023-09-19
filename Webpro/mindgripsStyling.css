@@ -1,0 +1,243 @@
+
+/* Style the product listings with a border, padding, and centered text */
+.product {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+.product img {
+    max-width: 100%;
+}
+.cart-link {
+    text-align: center;
+    margin-top: 10px; /* Adjust this margin as needed */
+}
+/* Style the "View Cart" link with a button-like appearance */
+.cart-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.cart-link a {
+    text-decoration: none;
+    background-color: black; /* Blue button color */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Style the footer with a background color and centered text */
+footer {
+    background-color:black; /* Blue background */
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* White text */
+}
+
+/*  style product images */
+.product img {
+   width: 200px; /* Adjust the width to your desired size */
+   height: 200px; /* Adjust the height to your desired size */
+}
+
+/* CSS for image zoom */
+.product img {
+    width: 200px; /* Initial size of the image */
+    transition: transform 0.2s ease-in-out; /* Smooth zoom transition */
+}
+
+.product img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+.enlarged {
+    width: 500px; /* Enlarged size of the image */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/* Style the signup form */
+.signup-form {
+    background-color: #fff; /* White background */
+    border:1px solid #ddd; /* Light gray border */
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.signup-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+.signup-form button.signup-button {
+    display:flexbox;
+    width: 50%;
+    background-color:black; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px;  
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.signup-form button.signup-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: black; /* Dark gray background */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* White text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the contact form container */
+.contact-form {
+    background-color: #fff; /* White background */
+    border-radius: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Style form elements */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form textarea {
+    height: 200px; /* Adjust the height as needed */
+}
+
+.contact-form button.submit-button {
+   display: flexbox;
+    background-color: black; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.contact-form button.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the contact information section */
+.contact-info {
+    margin-top: 5px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #555; /* Dark gray text */
+}
+
+.contact-info a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #222; /* Dark gray background */
+    text-align: center;
+    padding: 5px;
+    color: #fff; /* White text */
+}
